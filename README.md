@@ -1,4 +1,4 @@
 # mars-the-limit
-This is the page people can click on to see other websites by us.
-It really is a way for me to keep track of my websites, and a clean way for people to get 
-to any of my websites.
+Mars the Limit is an organization of one person hoping to brighten up one's day. 
+I just want to get some pretty good keywords, so: marsthelimit / money maker / snake game / mars the limit / bo vyper / you've been hacked / hacker 
+/ website of fun / 
