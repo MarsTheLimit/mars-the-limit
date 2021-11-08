@@ -23,12 +23,13 @@
 }
 </style>
 <script>
+function e() {
+	    input.click();
+
 function openFile {
 	var botton = document.querySelector('button');
 	var input = document.querySelector('input');
-	botton.addEventListener('click', function (e) {
-	    input.click();
-	});
+	botton.addEventListener('click', e());
 }
 </script>
 </head>
