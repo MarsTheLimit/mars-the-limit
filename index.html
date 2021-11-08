@@ -22,9 +22,15 @@
 	padding: 10px;
 }
 </style>
-<script type="text/javascript"> 
-function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','height=181,width=666,left=3,top=222') }
-</script> 
+<script>
+function openFile {
+	var botton = document.querySelector('button');
+	var input = document.querySelector('input');
+	botton.addEventListener('click', function (e) {
+	    input.click();
+	});
+}
+</script>
 </head>
 
 <body>
@@ -45,7 +51,7 @@ function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','heigh
 <div class="box" style="background-color: black; ">
 
 <h4>Fun Website Of Fun</h4>
-<button href="pages/error.html" onclick="JavaScript:CrashAndBurn(marsthelimit.github.io/marsthelimit/,'_blank');JavaScript:CrashAndBurn(marsthelimit.github.io/marsthelimit/,'_blank');">This Link</button>
+<a href="pages/error.html" onclick=""
 <p>So much fun, it's dangerous. &#128517</p>
 
 </div>
