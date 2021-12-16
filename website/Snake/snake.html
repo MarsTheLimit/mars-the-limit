@@ -218,13 +218,14 @@ pause = false;
 		const head = {x: snake[0].x + dx, y: snake[0].y + dy};
         	// Add the new head to the beginning of snake body
         	snake.unshift(head);
-        	// Increase score
-        	score += 10;
-        	let score_dis = document.getElementById("score_dis");
-		score_dis.innerHTML = score;
-        	// Generate new food location
-        	gen_food();
+        	
 	}
+	// Increase score
+        score += 10;
+        let score_dis = document.getElementById("score_dis");
+	score_dis.innerHTML = score;
+        // Generate new food location
+        gen_food();
       } else {
         // Remove the last part of snake body
         snake.pop();
