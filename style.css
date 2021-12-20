@@ -705,7 +705,7 @@ article * {
 	font-size: 2rem;
 	text-align: center;
 	margin: auto;
-	border: white 2px; 
+	border: white; 
 }
 
 .seperation_bar a {
@@ -876,68 +876,6 @@ article * {
         font-size: 1.2rem;
     }
 }
-
-/* entertain Boostrap Page */
-/* .entertain {
-    margin: 0.5in 0;
-    padding: 0 auto;
-    height: 100%;
-}
-
-
-
-
-.entertain__header h1 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 0.5in;
-    color: #ffffff;
-}
-
-.accordion {
-    background: linear-gradient(135deg, var(--dark-gray) 30%, #16171a 100%);
-    border-radius: 0.25rem;
-}
-
-.accordion-item {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-}
-
-.accordion-button {
-    font-family: "Roboto Mono", monospace;
-    font-weight: 600;
-    font-size: 1.5rem;
-    background: transparent;
-    color: #ffffff;
-}
-
-.accordion-button::after {
-    background: url(assets/bxs-down-arrow.svg);
-}
-
-.accordion-button:not(.collapsed)::after {
-    background: url(assets/bxs-down-arrow.svg);
-}
-
-.accordion-button:not(.collapsed) {
-    color: #ffffff;
-    background: #16171a;
-    box-shadow: none;
-}
-
-.accordion-button:focus {
-    box-shadow: none;
-    border: none;
-}
-
-.entertain__answer {
-    background: transparent;
-    color: #ffffff;
-    font-size: 1.25rem;
-} */
 
 /* About MtL Page */
 .article__content {
