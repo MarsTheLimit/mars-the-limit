@@ -699,6 +699,19 @@ article * {
 }
 
 /* entertain Page */
+
+.speration_bar {
+	font-type: monospace;
+	font-size: 2rem;
+	text-align: center;
+	margin: auto;
+}
+
+.seperation_bar a {
+	font-type: sans-serif;
+	color: white;
+}
+
 .entertain {
     background-color: var(--dark-orange);
     padding: 0.5in 50px;
@@ -870,17 +883,7 @@ article * {
     height: 100%;
 }
 
-.speration_bar {
-	font-type: monospace;
-	font-size: 2rem;
-	text-align: center;
-	margin: auto;
-}
 
-.seperation_bar a {
-	font-type: sans-serif;
-	color: white;
-}
 
 
 .entertain__header h1 {
