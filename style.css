@@ -870,6 +870,19 @@ article * {
     height: 100%;
 }
 
+.speration_bar {
+	font-type: monospace;
+	font-size: 2rem;
+	text-align: center;
+	margin: auto;
+}
+
+.seperation_bar a {
+	font-type: sans-serif;
+	color: white;
+}
+
+
 .entertain__header h1 {
     font-family: "Roboto Mono", monospace;
     font-size: 3rem;
@@ -922,7 +935,7 @@ article * {
     font-size: 1.25rem;
 } */
 
-/* Lawnmower Rights Page */
+/* About MtL Page */
 .article__content {
     color: #ffffff;
 }
