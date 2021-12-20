@@ -705,6 +705,7 @@ article * {
 	font-size: 2rem;
 	text-align: center;
 	margin: auto;
+	border: white 2px; 
 }
 
 .seperation_bar a {
