@@ -710,8 +710,18 @@ article * {
 }
 
 .seperation_bar a {
-	font-type: sans-serif;
-	color: white;
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	text-decoration: none;
+    	padding: 10px 20px;
+    	height: 100%;
+    	width: 100%;
+    	outline: none;
+    	border-radius: 999px;
+    	background: var(--orange);
+    	color: #ffffff;
+    	transition: 0.4s background ease;
 }
 
 .entertain {
