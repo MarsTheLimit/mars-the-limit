@@ -701,27 +701,16 @@ article * {
 /* entertain Page */
 
 .speration_bar {
-	font-type: monospace;
+	padding: 10px;
+	font-type: sans-serif;
 	font-size: 2rem;
 	text-align: center;
 	margin: auto;
 	border-color: white;
 	border-width: 2px;
-}
-
-.seperation_bar a {
-	display: flex;
-    	justify-content: center;
-    	align-items: center;
-    	text-decoration: none;
-    	padding: 10px 20px;
-    	height: 100%;
-    	width: 100%;
-    	outline: none;
-    	border-radius: 999px;
-    	background: var(--orange);
-    	color: #ffffff;
-    	transition: 0.4s background ease;
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
 }
 
 .entertain {
