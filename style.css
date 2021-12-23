@@ -33,6 +33,8 @@ body {
 	color: white;
 }
 
+
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     	width: 20px;
@@ -918,15 +920,15 @@ article * {
 
 /* Footer */
 .footer__container {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
     width: 100%;
-    background-color: #16171a;
-    padding: 1rem 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: -100%;
+    background-color: #16171a;
 }
 
 .footer__content {
