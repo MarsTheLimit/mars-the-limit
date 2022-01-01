@@ -705,10 +705,9 @@ article * {
 .speration_bar {
 	padding: 10px;
 	font-type: sans-serif;
-	font-size: 2rem;
+	font-size: 3rem;
 	text-align: center;
 	margin: auto;
-	border-color: white;
 	border-width: 2px;
 	width: 100%;
 	background: #ffffff;
