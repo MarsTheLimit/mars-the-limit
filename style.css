@@ -715,8 +715,12 @@ article * {
 }
 
 .seperation__link {
-	font-size: 3rem;
-	background-color: #1b1c1f;
+	background-color: gray;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.125);
+	padding: 5px;
+	text-decoration: none;
+	color: white;
 }
 
 .seperation__link:hover {
