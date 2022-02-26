@@ -1,4 +1,4 @@
 User-Agent: *
-Allow: /
+Disallow: /assets/
 
 Sitemap: https://marsthelimit.github.io/marsthelimit/sitemap.xml
