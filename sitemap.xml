@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://marsthelimit.github.io/downloads/</loc>
+		<loc>https://marsthelimit.github.io/marsthelimit/</loc>
 		<lastmod>2022-02-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>.9</priority>
 	</url>
 	<url>
-		<loc>https://marsthelimit.github.io/downloads/bear_v.html</loc>
+		<loc>https://marsthelimit.github.io/marsthelimit/bear-invasion</loc>
 		<lastmod>2022-02-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>.9</priority>
 	</url>
 	<url>
-		<loc>https://marsthelimit.github.io/downloads/pretzel_v.html</loc>
+		<loc>https://marsthelimit.github.io/downloads/pretzel-clicker</loc>
 		<lastmod>2022-02-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>.9</priority>
