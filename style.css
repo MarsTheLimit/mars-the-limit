@@ -8,6 +8,7 @@
     	--orange: #ff5900;
     	--light-orange: #ffc107;
     	--dark-orange: #cb4700;
+	--gray: #444444;
 }
 
 * {
@@ -192,8 +193,9 @@ a[target="_blank"]::after {
 }
 
 .navbar__links:hover {
-    color: var(--light-orange);
-    transition: 0.4s color ease;
+	color: var(--light-orange);
+	transition: 0.4s color ease;
+	background-color: --gray;
 }
 
 /* Navbar Mobile Responsive */
