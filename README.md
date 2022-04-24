@@ -10,4 +10,4 @@ I code a few Python games (with pygame), and convert them to .exe standalone gam
 and then put them on this website so people can have some fun. I also code in HTML,
 CSS, and enough JavaScript. 
 
-We also help the world by fighting the lawnmower rights activists ([LMRA](https://lmra-org.web.app) with the [NLMR](https://marsthelimit.github.io/nlmr-web/index.html).
+We also help the world by fighting the lawnmower rights activists ([LMRA](https://lmra-org.web.app) with the [NLMR](https://marsthelimit.github.io/nlmr-web/index.html)).
