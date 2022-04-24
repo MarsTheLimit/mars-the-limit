@@ -932,6 +932,96 @@ article * {
     border-radius: 10px;
 }
 
+/* Homepage */
+.homepage__content {
+	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	max-width: 1200px;
+    	margin: 0 auto;
+    	height: 70%;
+    	text-align: center;
+    	padding: 0 30px;
+	border-radius: 10px;
+}
+
+.logo {
+	background-image: url(assets/mars.png);
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover;
+    	padding: 165px 0;
+}
+
+.mars__header {
+	color: white;
+}
+
+.check__button {
+	font-size: 20px;
+	border-radius: 20px;
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	margin: 5%;
+}
+/* End Homepage */
+
+/* Downloads */
+.spacer {
+	margin: 100px;
+}
+
+.download__container {
+	margin: auto;
+	padding: 10px;
+}
+
+.download__item {
+	border-radius: 20px;
+	padding: 30px;
+	margin: 10px;
+	background-color: #57b336;
+}
+
+.download__item h2 {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.download__item p {
+	float: right;
+	color: black;
+}
+
+.download__image {
+	height: 150px;
+	align: left;
+}
+
+.versions__container {
+	margin: 10%;
+	padding: 20px;
+	background-color: #cbcbcb;
+	border-radius: 20px;
+}
+
+.versions__container h1 {
+	font-size: 50px;
+}
+
+.versions__container h2 {
+	font-size: 30px;
+}
+
+.versions__container ul {
+	padding: 5px;
+	margin-left: 3%;
+}
+/* End Downloads */
+
 /* Footer */
 .footer__container {
     position: fixed;
