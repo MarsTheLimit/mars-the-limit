@@ -982,18 +982,18 @@ article * {
 	border-radius: 20px;
 	padding: 30px;
 	margin: 10px;
-	background-color: #57b336;
+	background-color: var(--dark-gray);
 }
 
 .download__item h2 {
 	text-align: center;
-	color: black;
+	color: var(--light-blue);
 	text-decoration: none;
 }
 
 .download__item p {
 	float: right;
-	color: black;
+	color: var(light-blue);
 }
 
 .download__image {
@@ -1004,7 +1004,7 @@ article * {
 .versions__container {
 	margin: 10%;
 	padding: 20px;
-	background-color: #cbcbcb;
+	background-color: var(--gray);
 	border-radius: 20px;
 }
 
