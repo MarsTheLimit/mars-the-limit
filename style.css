@@ -1024,8 +1024,8 @@ article * {
 
 /* Footer */
 .footer__container {
-    position: static;
-    padding: 10px 10px 0px 10px;
+    position: fixed;
+    padding: 5px 5px 0px 5px;
     width: 100%;
     bottom: 0;
     display: flex;
@@ -1041,7 +1041,7 @@ article * {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 34px;
+    padding: 0 17px;
 }
 
 .footer__content--wrapper {
