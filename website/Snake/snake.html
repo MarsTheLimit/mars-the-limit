@@ -1,8 +1,12 @@
 <! DOCTYPE html>
 <hmtl>
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<title>Getting Smarter: 101 ways</title>
-	<link rel="icon" type="image/icon" href="favicon.ico">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="style.css" />
 <style>
 .tag_name {
   position: relative;
@@ -20,7 +24,7 @@ background {
 <body class="background">
 
     <! make and position canvas >
-    <canvas id="snakeboard" width="600" height="600"></canvas>
+    <canvas class="board" id="snakeboard" width="600" height="600"></canvas>
 
     <style>
       #snakeboard {
@@ -221,17 +225,16 @@ pause = false;
       snake.unshift(head);
       const has_eaten_food = snake[0].x === food_x && snake[0].y === food_y;
       if (has_eaten_food) {
-	for (f = 0; f < grow; f++) {
-		//Make the snake another head
-		const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+		for (f = 0; f < grow; f++) {
+			//Make the snake another head
+			const head = {x: snake[0].x + dx, y: snake[0].y + dy};
         	// Add the new head to the beginning of snake body
         	snake.unshift(head);
-        	
-	}
-	// Increase score
+			}
+		// Increase score
         score += 10;
         let score_dis = document.getElementById("score_dis");
-	score_dis.innerHTML = score;
+		score_dis.innerHTML = "Score: "+score;
         // Generate new food location
         gen_food();
       } else {
@@ -241,6 +244,6 @@ pause = false;
     }
     
   </script>
- <div class="tag_name" id="score_dis" style="font-size:400%; font-family: monospace;"><center><mark>0</mark></center></div>
+	<div class="tag_name" id="score_dis">Score: 0</div>
   </body>
 </html>
