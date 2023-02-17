@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guess The Number | MtL</title>
+		<script src="script.js"></script>
+		<link href="styleDark.css" rel="stylesheet" />
+	</head>
+	<body onload="getNumber();">
+		<div class="game-container">
+			<h1>Guess the Number</h1>
+			<input type="number" placeholder="Guess a number" id="player-guess">
+			<button onclick="checkNumber();">Submit</button>
+			<p id="teller">Enter a number and press submit</p>
+			<br/>
+			<br/>
+			<br/>
+			<button onclick="getNumber();">Play again/restart</button>
+		</div>
+		<div class="how-to-play">
+			<h2>Choose your range of numbers</h2>
+			<label for="max-number">Enter a number to go to:</label>
+			<input type="number" value=100 id="max-number" />
+			<button onclick="getNumber();">Submit</button>
+			<p style="font-size: .8rem">You can choose what your range of numbers is in the field above.</p>
+			<br/>
+			<h2>How to play</h2>
+			<p>Try to guess the number between 1, and whatever number you want.
+			   See if you can beat your score, and try to use the least amount
+			   of guesses possible.
+			</p>
+	</body>
+</html>

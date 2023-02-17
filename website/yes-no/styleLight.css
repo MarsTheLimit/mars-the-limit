@@ -1,0 +1,26 @@
+:root {
+	color-scheme: light;
+    --green: #7be600;
+	--white: #fafff9;
+}
+
+html, body {
+	background: var(--white);
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+.game-container {
+	border-radius: 10px;
+	background: var(--green);
+	margin: 10%;
+	padding: 10px;
+	text-align: center;
+}
+
+.how-to-play {
+	padding: 10px;
+	text-align: left;
+	margin: 5%;
+}
