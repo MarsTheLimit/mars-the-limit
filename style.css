@@ -1,13 +1,13 @@
 /* Website Settings */
 :root {
-    	color-scheme: dark;
-    	--dark-gray: #1b1c1f;
-    	--blue: #00a0f0;
-    	--light-blue: #8ecae8;
-    	--dark-blue: #0d5e87;
-    	--orange: #ff5900;
-    	--light-orange: #ffc107;
-    	--dark-orange: #cb4700;
+    color-scheme: dark;
+    --dark-gray: #1b1c1f;
+    --blue: #00a0f0;
+    --light-blue: #8ecae8;
+    --dark-blue: #0d5e87;
+    --orange: #ff5900;
+    --light-orange: #ffc107;
+    --dark-orange: #cb4700;
 	--gray: #444444;
 }
 
