@@ -61,7 +61,7 @@ background {
     // Vertical velocity
     let dy = 0;
     var pause = false;
-    let grow = 5;
+    let grow = 1;
 
     // Get the canvas element
     const snakeboard = document.getElementById("snakeboard");
@@ -77,14 +77,27 @@ background {
     function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
   }
-    
+    function reset() {
+	snake = [
+      {x: 300, y: 300},
+      {x: 290, y: 300},
+      {x: 280, y: 300},
+      {x: 270, y: 300},
+      {x: 260, y: 300}
+        ]
+	dx = 10;
+        dy = 0;
+	score = 0;
+        let score_dis = document.getElementById("score_dis");
+	score_dis.innerHTML = "Score: "+score;
+    }
+
     // main function called repeatedly to keep the game running
     function main() { 
        if (pause == false){
         if (has_game_ended()) {
 
-	delay(10000);
-	window.close();
+	reset();
 
 	}
 	if (snake.length > 300) {
