@@ -56,6 +56,7 @@
     ]
 
     let score = 0;
+    let speed = 0;
     let changing_direction = false;
     let food_x;
     let food_y;
@@ -95,7 +96,7 @@
       if (has_game_ended()) {
         reset();
       }
-    	if (snake.length > 300) {
+    	if (score == 1000) {
     		alert("You have won the game of Snake!");
         reset();
     	}
@@ -108,7 +109,7 @@
         move_snake();
         drawSnake();
         main();
-      }, 100)
+      }, speed)
     }
   }
     
